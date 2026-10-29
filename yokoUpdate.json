@@ -9,5 +9,12 @@
   "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V13",
   "archiveSize": 642308580,
   "sha256": "91f80e9ac84221230f317efcad40c866b561cb817874747294c41770f4893c73",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases"
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
+  "platforms": {
+    "windows": {
+      "size": 642445676,
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V13/AI-STUDIO-Yoko-0.1.10-Setup.exe",
+      "sha256": "c48dd6415782208b46fcce81cf0eb1396afdb2325699f6fcedc22413e12c560c"
+    }
+  }
 }
