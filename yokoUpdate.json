@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.12",
-  "deliveryVersion": "V15",
+  "version": "0.1.11",
+  "deliveryVersion": "V14",
   "force": false,
-  "notes": "V15：更新页新增固定夸克、迅雷备用入口；修复手动下载误走插件安装而403。软件内GitHub下载、大小/SHA256校验、保存后覆盖安装通道保留；工程、本人登录和项目保留。Mac单文件交接与私有源码已就绪，Mac仍需原生适配验收。",
-  "publishedAt": "2026-10-29T19:37:59+08:00",
-  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V15",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V15",
+  "notes": "V14：改善多尺寸聊天与画布布局，知识库收纳和服务商独立配置；全屏连线剪刀及撤销、大ZIP本地分块附件、PSD合成预览、绿色图标与系统语音入口。修复旧安装残留分片冲突，隔离V6覆盖升级及再次覆盖保留718个用户文件。新增GitHub备用更新公告；工程和旧包保留。真实语音识别、现代目录选择完整操作、老师实际电脑和Mac尚待验收。",
+  "publishedAt": "2026-10-29T17:21:30+08:00",
+  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V14",
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V14",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "d9f446fd1ddaed9b40a31e4cd8c9b529d9bcbfeb12d8ba08a16a46987d5e1d07",
-  "archiveSize": 644024742,
+  "sha256": "2374207c8522fda4f3d6c8d94d2abf102ea7a8f4ec2da151a781ec9455357a2f",
+  "archiveSize": 643220402,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V15/Yoko-Studio-V15-Windows-Setup.exe",
-      "size": 644169349,
-      "sha256": "46f38d68c1a30274996f9089358c2b2dfe3d00b6894cb8f55736f95c356be80a"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V14/Yoko-Studio-V14-Windows-Setup.exe",
+      "size": 643365228,
+      "sha256": "7da52b7be7f7ecc11b59e79df44dee3f887b297fb9eb5876c46f2e04ed8d0d3f"
     }
   }
 }
