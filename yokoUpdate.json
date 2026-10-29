@@ -1,0 +1,13 @@
+{
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V13",
+  "notes": "V13 Windows测试版：知识库增量索引、三档创作回退复审修复和左下角更新提醒。直接覆盖安装，保留本人登录和项目。",
+  "publishedAt": "2026-10-29T14:34:46.2186246+08:00",
+  "version": "0.1.10",
+  "product": "aiStudioYoko",
+  "deliveryVersion": "V13",
+  "schemaVersion": 1,
+  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V13",
+  "archiveSize": 642308580,
+  "sha256": "91f80e9ac84221230f317efcad40c866b561cb817874747294c41770f4893c73",
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases"
+}
