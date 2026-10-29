@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.13",
-  "deliveryVersion": "V16",
+  "version": "0.1.14",
+  "deliveryVersion": "V17",
   "force": false,
-  "notes": "V16：修复旧更新助手占用程序目录导致自动覆盖安装失败；替换前完整备份、失败恢复，兼容长路径。真实旧助手条件下替换和回滚通过，27184原程序与721原数据SHA不变。新增固定夸克、迅雷备用入口；Mac一份MD完成适配、验收、候选上传和PR交接。Mac与老师实际电脑仍需验收。",
-  "publishedAt": "2026-10-29T20:03:12+08:00",
-  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V16",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V16",
+  "notes": "画布Google与Codex会员图片自动共享本软件登录，无需API Key；新增Codex图片入口、Free套餐生成前提示和额度中文错误。正式V16覆盖V17、用户资料保留及原生入口已实测；当前Google额度耗尽、Codex账号Free，有权限账号实际出图仍需验证。保留Mac独立适配与原数据。",
+  "publishedAt": "2026-10-29T21:40:00+08:00",
+  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V17",
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V17",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "f035e349583c2bd0fafa55254307338066b39d2b65fac92ece6922055573327b",
-  "archiveSize": 644131967,
+  "sha256": "11025a67944db99b87571eb11ceefe5015f6096bcc6a74d9388069f0170f8da6",
+  "archiveSize": 644910535,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V16/Yoko-Studio-V16-Windows-Setup.exe",
-      "size": 644281181,
-      "sha256": "a2ea0d4e0be22211512cb758f05b5f899957ef4624e527c7f7c3993d3c94cd69"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V17/Yoko-Studio-V17-Windows-Setup.exe",
+      "size": 645054212,
+      "sha256": "e7f05fb4558abb902e588dab739e32b0212841eb051e7c9c41a005fd5b229bc2"
     }
   }
 }
