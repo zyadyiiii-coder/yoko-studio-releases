@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.11",
-  "deliveryVersion": "V14",
+  "version": "0.1.13",
+  "deliveryVersion": "V16",
   "force": false,
-  "notes": "V14：改善多尺寸聊天与画布布局，知识库收纳和服务商独立配置；全屏连线剪刀及撤销、大ZIP本地分块附件、PSD合成预览、绿色图标与系统语音入口。修复旧安装残留分片冲突，隔离V6覆盖升级及再次覆盖保留718个用户文件。新增GitHub备用更新公告；工程和旧包保留。真实语音识别、现代目录选择完整操作、老师实际电脑和Mac尚待验收。",
-  "publishedAt": "2026-10-29T17:21:30+08:00",
-  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V14",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V14",
+  "notes": "V16：修复旧更新助手占用程序目录导致自动覆盖安装失败；替换前完整备份、失败恢复，兼容长路径。真实旧助手条件下替换和回滚通过，27184原程序与721原数据SHA不变。新增固定夸克、迅雷备用入口；Mac一份MD完成适配、验收、候选上传和PR交接。Mac与老师实际电脑仍需验收。",
+  "publishedAt": "2026-10-29T20:03:12+08:00",
+  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V16",
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V16",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "2374207c8522fda4f3d6c8d94d2abf102ea7a8f4ec2da151a781ec9455357a2f",
-  "archiveSize": 643220402,
+  "sha256": "f035e349583c2bd0fafa55254307338066b39d2b65fac92ece6922055573327b",
+  "archiveSize": 644131967,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V14/Yoko-Studio-V14-Windows-Setup.exe",
-      "size": 643365228,
-      "sha256": "7da52b7be7f7ecc11b59e79df44dee3f887b297fb9eb5876c46f2e04ed8d0d3f"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V16/Yoko-Studio-V16-Windows-Setup.exe",
+      "size": 644281181,
+      "sha256": "a2ea0d4e0be22211512cb758f05b5f899957ef4624e527c7f7c3993d3c94cd69"
     }
   }
 }
