@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.14",
-  "deliveryVersion": "V17",
+  "version": "0.1.18",
+  "deliveryVersion": "V18",
   "force": false,
-  "notes": "画布Google与Codex会员图片自动共享本软件登录，无需API Key；新增Codex图片入口、Free套餐生成前提示和额度中文错误。正式V16覆盖V17、用户资料保留及原生入口已实测；当前Google额度耗尽、Codex账号Free，有权限账号实际出图仍需验证。保留Mac独立适配与原数据。",
-  "publishedAt": "2026-10-29T21:40:00+08:00",
-  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V17",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V17",
+  "notes": "V18：图片与聊天画布双向联动，上传现图可命名分类并采用；新手、进阶、高手缺项集中提醒，可继续局部制作；单镜头与批量生成分开；媒体池分类、多视频/BGM轨及蓝色一键拼接；聊天资料区可收起、调高和关闭。V17覆盖V18与原地重装、用户数据保留、真实安装版交互和正常退出已在本机验收。Mac及其它电脑仍需对应环境验证。",
+  "publishedAt": "2026-10-30T18:55:04+08:00",
+  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V18",
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V18",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "11025a67944db99b87571eb11ceefe5015f6096bcc6a74d9388069f0170f8da6",
-  "archiveSize": 644910535,
+  "sha256": "c66df84a54579016da2c284992963a32315bc0315cc7c63e051214e55528352a",
+  "archiveSize": 650621063,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V17/Yoko-Studio-V17-Windows-Setup.exe",
-      "size": 645054212,
-      "sha256": "e7f05fb4558abb902e588dab739e32b0212841eb051e7c9c41a005fd5b229bc2"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V18/Yoko-Studio-V18-Windows-Setup.exe",
+      "size": 650779107,
+      "sha256": "899c00000f059c9a2c01e49b1ca57a0eeb85c6d12114b0da81d8fe94f192fa7a"
     }
   }
 }
