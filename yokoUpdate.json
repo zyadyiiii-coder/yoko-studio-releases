@@ -1,21 +1,30 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.18",
-  "deliveryVersion": "V18",
+  "version": "0.1.28",
+  "deliveryVersion": "V1",
+  "displayVersion": "内测V1",
+  "releaseTag": "internal-v1",
+  "releasePhase": "internal",
+  "platformStatus": {
+    "windows": "ready",
+    "macos-arm64": "awaiting-native-acceptance",
+    "macos-x64": "awaiting-native-acceptance"
+  },
   "force": false,
-  "notes": "V18：图片与聊天画布双向联动，上传现图可命名分类并采用；新手、进阶、高手缺项集中提醒，可继续局部制作；单镜头与批量生成分开；媒体池分类、多视频/BGM轨及蓝色一键拼接；聊天资料区可收起、调高和关闭。V17覆盖V18与原地重装、用户数据保留、真实安装版交互和正常退出已在本机验收。Mac及其它电脑仍需对应环境验证。",
-  "publishedAt": "2026-10-30T18:55:04+08:00",
-  "downloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V18",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/V18",
+  "notes": "内测V1：多图轻量预览与排版修复；LIRA完整提示词节点、单张和批量；镜头补齐角色场景道具与分镜图参考；右侧只读成果与本地定位；独立画布；网盘手动更新提醒。Windows覆盖安装和用户数据保留已在本机验收；Mac M系列和Intel在同一版本按架构交接，原生更新提醒仍待Mac工作电脑验收。",
+  "publishedAt": "2026-10-31T17:59:12+08:00",
+  "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
+  "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
+  "deliveryMode": "manual",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "c66df84a54579016da2c284992963a32315bc0315cc7c63e051214e55528352a",
-  "archiveSize": 650621063,
+  "sha256": "db3d548bfbf6478bc60afc2a8473140f1a412a28c1c35f50fd9ccbe64d9cd9a7",
+  "archiveSize": 652709621,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/V18/Yoko-Studio-V18-Windows-Setup.exe",
-      "size": 650779107,
-      "sha256": "899c00000f059c9a2c01e49b1ca57a0eeb85c6d12114b0da81d8fe94f192fa7a"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/internal-v1/Yoko-Studio-Internal-V1-Windows-Setup.exe",
+      "size": 652872315,
+      "sha256": "37c373757e778d96b34a4a624c6cd7424b0645ee7896d084ac78f0795ee5ba4f"
     }
   }
 }
