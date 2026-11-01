@@ -1,30 +1,13 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.28",
-  "deliveryVersion": "V1",
-  "displayVersion": "内测V1",
-  "releaseTag": "internal-v1",
-  "releasePhase": "internal",
-  "platformStatus": {
-    "windows": "ready",
-    "macos-arm64": "awaiting-native-acceptance",
-    "macos-x64": "awaiting-native-acceptance"
-  },
-  "force": false,
-  "notes": "内测V1：多图轻量预览与排版修复；LIRA完整提示词节点、单张和批量；镜头补齐角色场景道具与分镜图参考；右侧只读成果与本地定位；独立画布；网盘手动更新提醒。Windows覆盖安装和用户数据保留已在本机验收；Mac M系列和Intel在同一版本按架构交接，原生更新提醒仍待Mac工作电脑验收。",
-  "publishedAt": "2026-10-31T17:59:12+08:00",
+  "version": "0.1.31",
+  "deliveryVersion": "V3",
   "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
+  "notes": "内测V3：修复未绑定资产槽局部改图报错；资产编辑、生图、垫图、视频回传与连接面板改为按项目校验，不再串项目；资产槽加整宽拖动手柄，图片可直接拖出到画布复制；项目与节点图片历史支持放大查看；单选媒体工具条不再遮挡节点历史按钮。Mac 端补充 Homebrew FFmpeg 路径探测，Mac 两种架构仍在适配验收中，本版为 Windows x64 安装包。",
+  "sha256": "4588393c2f90c4d2dc9452c073807205a82e8ca3e58b9b1eeaebdac9040a6634",
+  "archiveSize": 655179529,
+  "publishedAt": "2026-11-01T21:45:50+08:00",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "deliveryMode": "manual",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "db3d548bfbf6478bc60afc2a8473140f1a412a28c1c35f50fd9ccbe64d9cd9a7",
-  "archiveSize": 652709621,
-  "platforms": {
-    "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/internal-v1/Yoko-Studio-Internal-V1-Windows-Setup.exe",
-      "size": 652872315,
-      "sha256": "37c373757e778d96b34a4a624c6cd7424b0645ee7896d084ac78f0795ee5ba4f"
-    }
-  }
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/internal-v3"
 }
