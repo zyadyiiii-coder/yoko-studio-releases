@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.31",
-  "deliveryVersion": "V3",
+  "version": "0.1.32",
+  "deliveryVersion": "V4",
   "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "notes": "内测V3：修复未绑定资产槽局部改图报错；资产编辑、生图、垫图、视频回传与连接面板改为按项目校验，不再串项目；资产槽加整宽拖动手柄，图片可直接拖出到画布复制；项目与节点图片历史支持放大查看；单选媒体工具条不再遮挡节点历史按钮。Mac 端补充 Homebrew FFmpeg 路径探测，Mac 两种架构仍在适配验收中，本版为 Windows x64 安装包。",
-  "sha256": "4588393c2f90c4d2dc9452c073807205a82e8ca3e58b9b1eeaebdac9040a6634",
-  "archiveSize": 655179529,
-  "publishedAt": "2026-11-01T21:45:50+08:00",
+  "notes": "内测V4：知识库推荐卡可直接打开完整原文；自定义服务商配置与聊天、画布连通，保存的模型在聊天下拉列表和实际调用中使用同一份配置；分镜参数与资产引用同步到视频节点；修正部分已核实网关的旧单图协议配置。Mac 端两种架构同源重建中，本版为 Windows x64 安装包。",
+  "sha256": "23bc89e7964232d385e6d363ed36e6508a4edbcb7ea51d0e7d029890c6161793",
+  "archiveSize": 656045939,
+  "publishedAt": "2026-11-02T12:06:32+08:00",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/internal-v3"
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/internal-v4"
 }
