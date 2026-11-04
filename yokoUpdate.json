@@ -1,13 +1,32 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "version": "0.1.32",
-  "deliveryVersion": "V4",
-  "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "notes": "内测V4：知识库推荐卡可直接打开完整原文；自定义服务商配置与聊天、画布连通，保存的模型在聊天下拉列表和实际调用中使用同一份配置；分镜参数与资产引用同步到视频节点；修正部分已核实网关的旧单图协议配置。Mac 端两种架构同源重建中，本版为 Windows x64 安装包。",
-  "sha256": "23bc89e7964232d385e6d363ed36e6508a4edbcb7ea51d0e7d029890c6161793",
-  "archiveSize": 656045939,
-  "publishedAt": "2026-11-02T12:06:32+08:00",
+  "latest": "0.1.34",
+  "minSupported": "0.1.20",
+  "force": false,
+  "displayVersion": "公测V2（更新提醒连通性测试）",
+  "deliveryVersion": "V2",
+  "notes": "【连通性测试公告】本条仅用于验证更新提醒链路是否打通，不代表正式发布，下载包尚未全部同步。\n\n公测V2 实际内容：新增可视化风格图库，200位导演条目可在图像、视频和 LIRA 节点统一选择并写入提示词；修复媒体历史封面显示与视频重新改词入口，影调模板统一；大图 Base64 上传误判已修复（原节点5图33.3MiB可正常上传）；首领素材同源上传与视频任务回收接通；风格目录改为缓存读取；中文输入法持续打字与后台保存不再打断。\n\nWindows 已就绪；Mac 版 0.1.34 正在适配，本次为占位，请勿下载。",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/internal-v4"
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.34",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.34/Yoko-Studio-PublicBeta-V2-Windows-Setup.exe",
+      "mirrors": [],
+      "size": 521602994,
+      "sha256": "6d9b410a344697ab578a5df6bae7822c5840f2564686edfa4ec61ff59160d32b"
+    },
+    "macos-arm64": {
+      "url": "https://gzydjh.pages.dev/AIStudioYoko-0.1.33-arm64.dmg",
+      "mirrors": [],
+      "size": 415658059,
+      "sha256": "7d10194aae0dd5f774ef13195e0d8badbf7f803ea3ba3ee6658313d825d2a5ed"
+    },
+    "macos-x64": {
+      "url": "https://gzydjh.pages.dev/AIStudioYoko-0.1.33-x64.dmg",
+      "mirrors": [],
+      "size": 445676197,
+      "sha256": "8bf1176ca313698e403ef127c9151a84fe2c98ee2cebaa896b19ed900cbf533d"
+    }
+  }
 }
