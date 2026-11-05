@@ -2,12 +2,11 @@
   "schemaVersion": 1,
   "product": "aiStudioYoko",
   "latest": "0.1.34",
-  "minSupported": "0.1.20",
   "force": false,
-  "publishedAt": "2026-11-04T22:06:00+08:00",
-  "displayVersion": "公测V2（更新提醒连通性测试）",
+  "publishedAt": "2026-11-05T09:30:00+08:00",
+  "displayVersion": "公测V2",
   "deliveryVersion": "V2",
-  "notes": "【连通性测试公告】本条仅用于验证更新提醒链路是否打通，不代表正式发布，下载包尚未全部同步。\n\n公测V2 实际内容：新增可视化风格图库，200位导演条目可在图像、视频和 LIRA 节点统一选择并写入提示词；修复媒体历史封面显示与视频重新改词入口，影调模板统一；大图 Base64 上传误判已修复（原节点5图33.3MiB可正常上传）；首领素材同源上传与视频任务回收接通；风格目录改为缓存读取；中文输入法持续打字与后台保存不再打断。\n\nWindows 已就绪；Mac 版 0.1.34 正在适配，本次为占位，请勿下载。",
+  "notes": "公测V2 三平台同版发布：Windows x64、Mac Apple 芯片、Mac Intel 均已就绪。\n\n新增可视化风格图库，200位导演条目可在图像、视频和 LIRA 节点统一选择并写入提示词；修复媒体历史封面显示与视频重新改词入口，影调模板统一；大图 Base64 上传误判已修复（原节点5图33.3MiB可正常上传）；首领素材同源上传与视频任务回收接通；风格目录改为缓存读取，勾选不再串项目；中文输入法持续打字与后台保存不再打断。\n\nMac 版：本次程序名改为「AI Studio YangZi」，与旧的「AI Studio Yoko」可能同时存在，装完请把旧的那个拖到废纸篓；项目、素材、账号数据都在原目录，不会丢失。\n\n更新提醒：打开软件后约 4 秒自动检查，无需手动点击。",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.34",
   "platforms": {
@@ -18,16 +17,16 @@
       "sha256": "6d9b410a344697ab578a5df6bae7822c5840f2564686edfa4ec61ff59160d32b"
     },
     "macos-arm64": {
-      "url": "https://gzydjh.pages.dev/AIStudioYoko-0.1.33-arm64.dmg",
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.34/AIStudioYangZi-0.1.34-arm64.dmg",
       "mirrors": [],
-      "size": 415658059,
-      "sha256": "7d10194aae0dd5f774ef13195e0d8badbf7f803ea3ba3ee6658313d825d2a5ed"
+      "size": 420546821,
+      "sha256": "219c57f901007ed8969a05021bc1e730fd50f5fe006019bd6342d82370f97ce1"
     },
     "macos-x64": {
-      "url": "https://gzydjh.pages.dev/AIStudioYoko-0.1.33-x64.dmg",
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.34/AIStudioYangZi-0.1.34-x64.dmg",
       "mirrors": [],
-      "size": 445676197,
-      "sha256": "8bf1176ca313698e403ef127c9151a84fe2c98ee2cebaa896b19ed900cbf533d"
+      "size": 433924165,
+      "sha256": "15cb16b2786ef78df8e33fd4c2fd4741db09a4762c3a89095244532d375559e2"
     }
   }
 }
