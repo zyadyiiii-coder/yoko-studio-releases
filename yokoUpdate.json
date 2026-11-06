@@ -1,32 +1,30 @@
 {
   "schemaVersion": 1,
   "product": "aiStudioYoko",
-  "latest": "0.1.35",
+  "version": "0.1.36",
+  "deliveryVersion": "V2.2",
+  "displayVersion": "公测V2.2",
+  "releaseTag": "v0.1.36",
+  "releasePhase": "publicBeta",
+  "platformStatus": {
+    "windows": "ready",
+    "macos-arm64": "awaiting-native-acceptance",
+    "macos-x64": "awaiting-native-acceptance"
+  },
   "force": false,
-  "publishedAt": "2026-11-06T09:30:00+08:00",
-  "displayVersion": "公测V2.1",
-  "deliveryVersion": "V2",
-  "notes": "公测V2.1 三平台同步：Windows x64、Mac Apple 芯片、Mac Intel 均已就绪。\n\n71 分支按用途分类并可跨阶段手动挂载；单镜头 Comfy 首帧、正式提示词核对和已保存视频登记恢复；达芬奇 MCP 连接诊断与剪映工程入口说明；H3 在 Arc B580 以 480p 生成约 1 秒视频并自动返回原分镜；剪映原生草稿免导入导出、达芬奇媒体池预载修复音频丢失、多轮对话上下文历史已并入本版。\n\n升级方式：点下方「夸克下载」或「迅雷下载」，保存并正常关闭软件后运行新版覆盖安装，无需卸载。你的账号、聊天、模型配置、项目和素材都保留在原目录。\n\nMac 版程序名为「AI Studio YangZi」，若旧的「AI Studio Yoko」仍在，装完可把旧的那个拖到废纸篓。\n\n更新提醒：打开软件后约 4 秒自动检查，也可在左下角手动检查。",
+  "notes": "公测 V2.2：新增清晰的 ComfyUI 本机生成入口与可编辑本地/服务器地址，支持导入本机 H3 工作流；完善 DaVinci Resolve MCP 与剪映原生草稿导出。Windows 实机已验证 ComfyUI 连接、DaVinci MCP 读写保存及剪映草稿格式打开；剪映草稿库自动定位和多轮上下文仍列为未验。",
+  "publishedAt": "2026-11-06T10:55:09+08:00",
+  "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.35",
+  "deliveryMode": "manual",
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
+  "sha256": "f09ef6a411b8616931bc3e885e3d9af3ce435c903016d787b79bd66d5fdc597a",
+  "archiveSize": 521483782,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.35/Yoko-Studio-PublicBeta-V2-1-Windows-Setup.exe",
-      "mirrors": [],
-      "size": 521631641,
-      "sha256": "d5239d86a5e25244675afd01682d6241ec352b586bf7f6fd0f4764dbffa3ad5d"
-    },
-    "macos-arm64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.35/AIStudioYangZi-0.1.35-arm64.dmg",
-      "mirrors": [],
-      "size": 419185231,
-      "sha256": "0bb8c7db428794aa523ba68cc738f0c5c8feacb6b1870bd6ad2e10fd05ba3654"
-    },
-    "macos-x64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.35/AIStudioYangZi-0.1.35-x64.dmg",
-      "mirrors": [],
-      "size": 451150625,
-      "sha256": "9a3983d6b78fdf079509d1fdaad1c3907ccc1de38eb7b3dc74153f6d26702b02"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.36/Yoko-Studio-PublicBeta-V2-2-Windows-Setup.exe",
+      "size": 521617624,
+      "sha256": "b27abf64c8732427edb78a6c203ec8cded05d9cb723e3962cba7130f659b3396"
     }
   }
 }
