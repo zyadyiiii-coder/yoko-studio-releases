@@ -1,36 +1,17 @@
 {
-  "schemaVersion": 1,
-  "product": "aiStudioYoko",
-  "version": "0.1.35",
+  "latest": "0.1.38",
+  "publishedAt": "2026-11-07T18:50:00+08:00",
+  "displayVersion": "公测V2.2",
   "deliveryVersion": "V2",
-  "displayVersion": "公测V2.1",
-  "releaseTag": "v0.1.35",
-  "releasePhase": "publicBeta",
-  "platformStatus": {
-    "windows": "ready",
-    "macos-arm64": "ready",
-    "macos-x64": "awaiting-build"
-  },
   "force": false,
-  "notes": "公测V2.1修复版：71分支按用途分类并可跨阶段手动挂载；单镜头Comfy首帧、正式提示词核对和已保存视频登记恢复；达芬奇MCP连接诊断与剪映工程入口说明。H3在Arc B580以480p生成约1秒视频并自动返回原分镜。全新安装及覆盖公测V2通过，317份旧数据保留，12117份程序文件与发行源相同，不含作者教案和开发者账号。本轮按作者要求只做后台收尾；剪映兼容文件最终实机导入、Mac V2.1真机仍待，见完整包验收说明。此为归档草稿，网盘由作者上传后再公开公告。",
-  "publishedAt": "2026-11-05T16:25:52+08:00",
-  "downloadUrl": "https://pan.quark.cn/s/f60666574bf1",
+  "notes": "公测V2.2（0.1.38）修复版：修复界面主题与外观设置未正确生效、发送后生成等待状态显示不正确的问题，并包含若干界面与稳定性修复。\n\nWindows 版现已可下载（夸克「洋子工作台OTA」，或点下面的下载按钮）。Mac 版（Apple 芯片 / Intel）稍后上架，届时软件会自动提示，不用重新装。\n\n更新提醒：打开软件后约 4 秒自动检查，无需手动点击。装前请先退出正在运行的旧版，避免提示「应用未关闭」。",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "deliveryMode": "manual",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
-  "sha256": "f4462bc00083aeaa5ad0e23df098c09d4ec3054cbc2aaadd8c68462cf64c1b19",
-  "archiveSize": 521501839,
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.35/Yoko-Studio-PublicBeta-V2-1-Windows-Setup.exe",
-      "size": 521631641,
-      "sha256": "d5239d86a5e25244675afd01682d6241ec352b586bf7f6fd0f4764dbffa3ad5d"
-    },
-    "macos-arm64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.35/AIStudioYangZi-0.1.35-arm64.dmg",
-      "mirrors": [],
-      "size": 419185231,
-      "sha256": "0bb8c7db428794aa523ba68cc738f0c5c8feacb6b1870bd6ad2e10fd05ba3654"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.38/Yoko-Studio-PublicBeta-V2-2-Windows-Setup.exe",
+      "size": 521687930,
+      "sha256": "80b36f9170bb3d0a25b086dfde9cab1c19948ceca218d6b29e4e52522d2427b1"
     }
   }
 }
