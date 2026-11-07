@@ -1,10 +1,10 @@
 {
   "latest": "0.1.38",
-  "publishedAt": "2026-11-07T18:50:00+08:00",
+  "publishedAt": "2026-11-07T19:40:00+08:00",
   "displayVersion": "公测V2.2",
   "deliveryVersion": "V2",
   "force": false,
-  "notes": "公测V2.2（0.1.38）修复版：修复界面主题与外观设置未正确生效、发送后生成等待状态显示不正确的问题，并包含若干界面与稳定性修复。\n\nWindows 版现已可下载（夸克「洋子工作台OTA」，或点下面的下载按钮）。Mac 版（Apple 芯片 / Intel）稍后上架，届时软件会自动提示，不用重新装。\n\n更新提醒：打开软件后约 4 秒自动检查，无需手动点击。装前请先退出正在运行的旧版，避免提示「应用未关闭」。",
+  "notes": "公测V2.2（0.1.38）这版重点是打通「生成完直接进剪辑」这一段。\n\n【新增能力】\n· 导出剪映原生草稿：免导入，自动写进本机剪映草稿箱，打开剪映就能接着剪。\n· 一键送达达芬奇：新建时间线无损载入，你原来的时间线完整保留；同步丢音轨的问题已修。\n· 用大白话指挥达芬奇：「移到第10秒加个蓝色标记」「切换到剪辑页面」「保存工程」，直接说就行，不用装脚本。\n· 另外还有通用 XML / FCPXML 导出，Premiere、Final Cut 也能用。\n· 老项目能搬家：扫描本地已有剧本和旧图，自动把图分成角色三视图、无人空场景、独立道具并打分，从 07 LIRA 接着做，原文件一份不动。\n· 接本地 ComfyUI 语言模型：九阶段写作可以跑本机模型（也能连 Ollama / LM Studio），不花 API 费用。\n\n【体验优化】\n· 图片和视频生成不再中途自己停：任务会一直等到完成或你手动取消，没读的结果 24 小时内不丢。\n· 模型对话不再卡死循环：失败后不自动重发、不会重复扣费，已经收到的正文会保留。\n· 界面调整：主界面模块降低不透明度融入背景视频；工程列表删除加了二次确认和路径提醒。\n· 明暗主题（浅色 / 深色 / 跟随系统）、聊天字号、对话宽度和高度、专注对话，都可以自己调。\n\n【安装提醒】\nMac 分两个架构，按芯片下载：Apple 芯片选 arm64，Intel 选 x64。安装包未做代码签名，首次打开若被系统拦住，去「系统设置 → 隐私与安全性」点「仍要打开」。\nWindows 装前请先完全退出旧版，避免提示「应用未关闭」。",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
   "platforms": {
@@ -12,6 +12,16 @@
       "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.38/Yoko-Studio-PublicBeta-V2-2-Windows-Setup.exe",
       "size": 521687930,
       "sha256": "80b36f9170bb3d0a25b086dfde9cab1c19948ceca218d6b29e4e52522d2427b1"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.38/Yoko-Studio-PublicBeta-V2-2-macOS-arm64.dmg",
+      "size": 419165565,
+      "sha256": "d71b60ae58a699245f95d6996597bc730b8663d53cf045bac7ec64c38af57308"
+    },
+    "macos-x64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.38/Yoko-Studio-PublicBeta-V2-2-macOS-x64.dmg",
+      "size": 449305709,
+      "sha256": "5926045642531dec3303cb9569e9be4bdf357b9d87ecd1a7136946d7229a63a1"
     }
   }
 }
