@@ -1,27 +1,27 @@
 {
-  "latest": "0.1.40",
-  "publishedAt": "2026-11-10T08:38:42+08:00",
-  "displayVersion": "公测V2.4",
+  "latest": "0.1.41",
+  "publishedAt": "2026-11-10T18:46:02+08:00",
+  "displayVersion": "公测V2.5",
   "deliveryVersion": "V2",
   "force": false,
-  "notes": "公测V2.4（0.1.40）三端同版：Windows、Mac（M芯片）、Mac（INTEL老款芯片）都已就绪。覆盖安装即可，账号、项目、素材、设置全部保留。\n\n【画布】\n· 框选多张已有图片，可以一起拖进生图节点当参考图，不用一张一张连线（按住 Alt 拖动仍是原来的移动行为）。\n· 鼠标滚轮直接缩放画布。\n· 一键整理按 角色 / 场景 / 道具 / 分镜 分区，每行最多 5 张（2 / 3 / 4 / 5 张可调）。\n· 连续改图会引用最新一张图，不用每次重新挑原图。\n· 已有图片可以先当备选：从资产库把候选图放到画布，重新打开项目还在，什么时候采用、什么时候锁定由你决定，放上去本身不算采用。\n\n【资产库】\n· 批量生图：可多选资产，点卡片查看和修改提示词；模型、分辨率、画幅和提示词与画布同步，批量时统一套用到所选资产。\n· 滚到底后最后一行名称和信息不再被遮住。\n\n【视频】\n· 镜头列表里勾选后可以统一设置：API 或 ComfyUI 模型、分辨率、画幅一次改完，时长仍可逐镜调整。\n· 纯提示词工作流会自动收起首帧选项，不再要求选一张用不上的首帧。\n· 本机 H3 的规格统一为「沿用工作流 · 480p · 768p」。\n\n【剧本】\n· 已有剧本迁移：扫描推荐的剧本不合适时，可以手动选原文件、先看正文，确认后再登记到 05。\n· 重新扫描会保留你手选的剧本和已有的图片候选，不会被冲掉。\n\n【模型服务】\n· 服务商模型目录：拉取后可直接分类、勾选并同步到模型列表。\n· 首领普通线路用 default 组密钥，专线用「专线组」密钥，两边分开填，别混。\n· 修复了手填专线模型 ID 时保存报错的问题。\n\n【剪辑台】\n· 可把当前画面保存为 PNG 静帧。\n\n【APP 局域网互联（本版先做 Windows 本机联调）】\n· 副机输入主机 IP 和昵称，主机批准后进入同一个工作台，能打开资产画布和剪辑时间线。\n· 在线成员会显示头像，主机可以随时撤销连接。\n\n【安装提醒】\nMac 分两个包，按芯片下：文件名带（M芯片）的给 Apple 芯片 M1/M2/M3/M4，带（INTEL老款芯片）的给 Intel Core i5/i7/i9。安装包没做代码签名，首次打开被系统拦住时，去「系统设置 → 隐私与安全性」点「仍要打开」。Windows 装前先把旧版完全退出。\n\n模型、价格和等待时间以服务商当前状态为准。\n\n完整图文说明（含配图、九阶段详解、模型配置全指南）：\nhttps://wvybc6v6ip.feishu.cn/wiki/LvIuw8juUiiO7UkdBTbcFEG4npg",
+  "notes": "公测V2.5（0.1.41）三端同版：Windows、Mac（M芯片）、Mac（INTEL老款芯片）都已就绪。覆盖安装即可，账号、项目、素材、设置全部保留。\n\n【剧本与镜头】\n· 07 资产登记支持「上1」「下1」这类中文场次编号。可以沿用原剧本的叫法，登记后的资产能在 09 匹配到对应场次。\n· 09 跨场镜头支持 S01+S02+S03 这种写法。已验证能把 13 个旧镜头改成 3 个跨场生成单元，旧镜头表和视频都有保留。\n· 09 提示词上画布现在可以一键采用，把正式提示词、镜头和关联的 07 资产同步过去。画布上手动改过的提示词会保留。草稿在软件外改过，也能核对后另存为新稿再采用。\n· 09 报错更具体。镜头表里的字段有问题时，会指出第几条镜头、哪个字段有错，方便直接找到并修改。\n· 本地 Qwen 写完没草稿的问题已修。用本机 Qwen 3 和 Qwen 3.5 验证了起草、保存和采用。\n\n【视频生成】\n· H3 视频设置支持在界面选择工作流声明的 480p、768p，首帧可以上传、替换或清空，多参考图可以用 @ 引用。画布和剪辑台的镜头设置可以同步。\n· 批量生成视频镜头移到了画布外层。现在按「图片资产 → 视频镜头 → 批量生成 → 剪辑时间线 → 交付成片」排列，待选图归回资产库。勾选镜头后可统一模型、画幅和分辨率，各镜头保留自己的时长。\n\n【剪辑台】\n· 剪辑时间线可以鼠标框选多个片段，一起移动或移出，支持撤销。剪辑区宽度和预览高度都能拖动调整。\n· 静帧截图和裁切。剪辑预览上可以直接截当前帧，截图会进媒体池。图片裁切可以放大操作，支持 16:9、9:16 等常用比例，也能自由裁切并另存。\n\n【新手模式】\n· 新手模式改成八步。采用 05 剧本后直接进入 07 图像资产。旧项目停在 06 时，会按剧本是否已采用回到 05 或进入 07。进阶和高手仍可使用压力测试。\n\n【画布】\n· 画布卡顿。图片卡共用资产清单，视口外跳过预览绘制。85 节点测试中，项目清单请求从 78 次降到 3 次，目录读取从 89 次降到 13 次。\n· 画布生图通道。新卡优先用已设的生图模型，再沿用项目会员通道。旧卡仍保留原选择，例如 Google 卡可以手动切换到 WorkBuddy，已验证设置能保存。\n\n【稳定性】\n· 视频断线与上传限流。已拿到任务号的视频，重开画布或软件后可以继续查原任务。首领素材上传遇到 429 时，会说明视频还没提交，有建议等待时间也会显示。已通过模拟回归。\n· 聊天和设置。修了切换模型时输入框被挤成一条线的问题。匿名统计开关并入常规设置。Windows 启动遇到文件访问被拒绝时，会提示检查程序和 data 目录的权限。",
   "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.40/YangZi-Studio-PublicBeta-V2-4-Windows-Setup.exe",
-      "size": 521987614,
-      "sha256": "afb9085ea8acff452c72a710bb4b99b5bde4ed89e2a1c79f1204139b38133ae6"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.41/YangZi-Studio-PublicBeta-V2-5-Windows-Setup.exe",
+      "size": 521920547,
+      "sha256": "7dc9f53c54ca304b2e4b30cd924ea17b0fa938000b9aef77e7dc56610d78aad9"
     },
     "macos-arm64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.40/YangZi-Studio-PublicBeta-V2-4-macOS-arm64-Mchip.dmg",
-      "size": 420568778,
-      "sha256": "d5c571d6febd535dc0efacbdb0bb0622d45f37e23b97eb253bb262b117e9072d"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.41/YangZi-Studio-PublicBeta-V2-5-macOS-arm64-Mchip.dmg",
+      "size": 420564539,
+      "sha256": "3cd18a3895abf41f6f39c7c8f883573c9c15fe75709e1c108d67a30258063717"
     },
     "macos-x64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.40/YangZi-Studio-PublicBeta-V2-4-macOS-x64-INTEL.dmg",
-      "size": 450423483,
-      "sha256": "102a13f891a68fae86f20382a03ce9319609c381582d545da9a2065a9b1fbf4f"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.41/YangZi-Studio-PublicBeta-V2-5-macOS-x64-INTEL.dmg",
+      "size": 450414836,
+      "sha256": "afe716b53ad0109a401146ac789c30d43c10c4d68c2a5c834cd3a8665f0049cd"
     }
   }
 }
