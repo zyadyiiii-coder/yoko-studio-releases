@@ -15,13 +15,13 @@
     },
     "macos-arm64": {
       "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.40/YangZi-Studio-PublicBeta-V2-4-macOS-arm64-Mchip.dmg",
-      "size": 419230942,
-      "sha256": "d738fe9a6c4501ca09209c8ef40483966a19edafb77e95b6b34465f317630182"
+      "size": 420568778,
+      "sha256": "d5c571d6febd535dc0efacbdb0bb0622d45f37e23b97eb253bb262b117e9072d"
     },
     "macos-x64": {
       "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.40/YangZi-Studio-PublicBeta-V2-4-macOS-x64-INTEL.dmg",
-      "size": 449422845,
-      "sha256": "606790ec60d4204c1af14a03a60d4756de1690a4af9c1c6fbf9a60d4a653b979"
+      "size": 450423483,
+      "sha256": "102a13f891a68fae86f20382a03ce9319609c381582d545da9a2065a9b1fbf4f"
     }
   }
 }
