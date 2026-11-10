@@ -1,0 +1,27 @@
+{
+  "latest": "0.1.39",
+  "publishedAt": "2026-11-08T23:03:33+08:00",
+  "displayVersion": "公测V2.3",
+  "deliveryVersion": "V2",
+  "force": false,
+  "notes": "公测V2.3（0.1.39）三端同版：Windows、Mac（M芯片）、Mac（INTEL老款芯片）都已就绪。覆盖安装即可，账号、项目、素材、设置全部保留。\n\n【这次新增】\n· 首页与项目：浅色深色共用一套布局，白模块降到 65% 毛玻璃，融进背景视频。项目移出前二次确认，移错可从首页「项目回收站」一键恢复，原工程文件一直留在原目录。\n· 老项目搬家：写好的剧本、旧版攒下的角色场景道具图不用重跑 01—06，选「已有资产 / 剧本迁移继续做」直接接入 07 LIRA 导演分镜台；只盘点文件不改原件，PDF / Word / TXT / Markdown 和图片都能读。\n· 画布与生成：可框选多张图，从任一张右上角「拖图」拖进生成卡片，也能直接连线；已锁定资产点「选择图片替换」。生成时卡片左上角显示已用时间。\n· Seedance 2.5 NL 的 480p / 720p / 1080p 排到首领视频最前，选哪档带哪档分辨率；已被上游停用的 TX Seedance 2.0 480p 从默认列表隐藏，旧画布照常能打开。\n· ComfyUI 认参考图插口：导入 Qwen 这类可增减参考图的工作流能识别 images.image_1 一类连线，以前存成嵌套写法的同类工作流也认。\n· 导演台与拉片全面接入会员模型（Codex、WorkBuddy、Google 会员），普通视频卡和生成视频卡都能直接打开逐帧拉片；要看图的拉片用支持视觉的会员或 API 模型。\n· 09 阶段 Codex：工作台把本轮规则和原件一起递过去，完整回复存成待确认草稿；读规则、存草稿少走几次授权，额外权限按顺序逐条显示，一次只看一条。\n\n【体验优化】\n· 首领 AI 改为可选推荐，点价格图能看三张参考图；不想用可以在设置里填自己的服务商。\n· 余额不足单独提示；失败时打开右上角「日志」复制原始详情，已拿到任务编号的先查这条任务，别重复提交。\n\n【上版已具备（V2.2）】\n导出剪映原生草稿免导入；达芬奇用大白话指挥（「移到第10秒加个蓝色标记」「保存工程」），另支持 XML / FCPXML 导出。\n\n【安装提醒】\nMac 分两个包，按芯片下：文件名带（M芯片）的给 Apple 芯片 M1/M2/M3/M4，带（INTEL老款芯片）的给 Intel Core i5/i7/i9。安装包没做代码签名，首次打开被系统拦住时，去「系统设置 → 隐私与安全性」点「仍要打开」。Windows 装前先把旧版完全退出。\n\n模型、价格和等待时间以服务商当前状态为准。\n\n完整图文说明（含配图、九阶段详解、模型配置全指南）：\nhttps://wvybc6v6ip.feishu.cn/wiki/LvIuw8juUiiO7UkdBTbcFEG4npg",
+  "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.39/Yoko-Studio-PublicBeta-V2-3-Windows-Setup.exe",
+      "size": 523855791,
+      "sha256": "09c349fa988b7e0667e0bbfbb5f4d0fd59531f31d1cf3821be3cb018baee8da1"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.39/Yoko-Studio-PublicBeta-V2-3-macOS-arm64-Mchip.dmg",
+      "size": 421478115,
+      "sha256": "812bda37d40592a44c0b51c894da1644f667b5ed4bfc9ead44d8fda11ef344c9"
+    },
+    "macos-x64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.39/Yoko-Studio-PublicBeta-V2-3-macOS-x64-INTEL.dmg",
+      "size": 451472618,
+      "sha256": "7e9bb332b3ebe6a9552efa1f8dfc9af760cf305d7c598367456421d193dde203"
+    }
+  }
+}
