@@ -1,27 +1,17 @@
 {
-  "latest": "0.1.44",
-  "publishedAt": "2026-11-17T10:34:12+08:00",
-  "displayVersion": "公测V2.8",
-  "deliveryVersion": "V2",
+  "latest": "0.1.46",
+  "publishedAt": "2026-11-19T15:51:11+08:00",
+  "displayVersion": "公测V3.0",
+  "deliveryVersion": "V3",
   "force": false,
-  "notes": "公测V2.8（0.1.44）三端同版已发布：Windows、macOS M 芯片、macOS Intel。覆盖安装即可，项目、素材、账号全部保留。\n\n【首页：AI 配置助手】\n- 第一次打开不用再照着文档手动填地址。助手会自动查找本机正在运行的服务，把地址填好，试跑一次对话，通了直接接入\n- 没通会告诉你是哪一步卡住，不用自己猜\n- 配置分三类，按你手上有什么选：会员通道、自己的 API、本机模型\n- 问配置问题不用先建项目，首页直接问\n\n【连接入口】\n- 创作通道旁边恢复了对应的连接入口，会员连接设置常显\n- 侧栏两个按钮随窗口宽度自动换行，窄屏不再挤成一条\n\n【ComfyUI】\n- 内置 ComfyUI-Manager 自动安装：工作流缺节点时不用自己去 GitHub 下管理器，客户端带一份固定版本直接装上\n\n【聊天分支】\n- API 语言模型和 ComfyUI 语言窗口顶部新增「对话分支」下拉框和「＋ 新开对话」按钮\n- 新开的分支沿用当前项目的阶段、剧本、资产，不用重新交代背景\n- 每个分支的聊天记录单独存一份，项目主对话保持原样，随时切回去\n- 模型返回上下文超长报错时，面板直接给「新开对话继续」，一键开新分支接着写\n- 每个项目会记住你上次停在哪个分支\n\n【画布与剧本】\n- 资产提示词自动保留草稿，可切到别的项目再回来\n- 画布写入冲突时自动另存，恢复后原来的草稿还在\n- 资产图片回收站支持勾选、全选、批量清理\n- 单镜头与画布的参考图显示更清楚，提示词两边同步\n\n【视频与批量】\n- 批量视频按模型能力给自定义规格，不再只有固定几档\n- 首领（Nano-banana-2.1）恢复常用画幅\n\n【稳定性】\n- 修复提供商配置偶发失败的问题\n- 长对话不再中途断掉上下文\n\n【关于分集】\n- 一部剧分集做、每集独立剧本/资产/画布/镜头，是上一版 V2.7 就上线的，这版没有改动\n- 你要是还停在更早的版本，这次升上来会一起装上\n- 多部剧并行（多剧集）这版还没上，先在现有项目里按集拆分着用\n\nMac 用户注意：安装包是本地签名、未做苹果公证，首次打开若被系统拦下，右键点图标选「打开」，或在「系统设置 → 隐私与安全性」里点「仍要打开」，之后正常双击即可。",
-  "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
-  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.44",
+  "notes": "公测V3.0（0.1.46）Windows 版已发布，macOS 双架构随后补齐。\n\n【工作台：一条时间线干完】\n- 首页影片背景统一，深浅色层次不再脏\n- 画布布局更稳，成果审阅、全局字号入口收到一处\n- 分集入口补齐，一集一个工作区，导进来自动分好\n\n【共享画布：多人真的能一起改】\n- 共享画布改成实时同步，对方改完这边几秒内就能看到\n- 访客用浏览器就能进来改，不用装客户端\n- 断开设备前会把画布先存一遍，不再丢节点\n\n【剪辑：多轨与媒体池】\n- 多轨剪辑落地，媒体池缩略图补齐\n- 导入媒体时校验路径，缺文件会明确报出来，不再静默吞掉\n\n【已知问题（下一轮修）】\n- DaVinci Resolve 导入时间线后只有画面没有声音\n- 访客进入对方画布时可能自动弹出网页，关掉还会再弹\n- 生图节点生成后直接关窗，节点偶尔不保存\n\n以上三条已在修，下一版处理。其余功能正常使用。\n\n覆盖安装即可，项目、素材、账号全部保留，不需要卸载。",
+  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.46",
+  "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.46",
   "platforms": {
     "windows": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.44/YangZi-Studio-PublicBeta-V2.8-Windows-Setup.exe",
-      "size": 546314117,
-      "sha256": "10e6f74b82ee521137992ff29b3286b3ee38b163b0c7043ab69e8e8309df6db8"
-    },
-    "macos-arm64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.44/YangZi-Studio-PublicBeta-V2.8-macOS-arm64.dmg",
-      "size": 442265675,
-      "sha256": "bd3b493b748f77948bffa15f587f5088d0910dad3d73acbad4a6fc0c4a072ba3"
-    },
-    "macos-x64": {
-      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.44/YangZi-Studio-PublicBeta-V2.8-macOS-x64.dmg",
-      "size": 472287390,
-      "sha256": "4401de7979d1da9e5755feb9d1ed2bd59a56890bce13fbd64a7720758b76c499"
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.46/YangZi-Studio-PublicBeta-V3.0-Windows-Setup.exe",
+      "size": 639141865,
+      "sha256": "8bf6285fabd067c780808072980ccd28f0efbe735884491f2a76d3bff7301542"
     }
   }
 }
