@@ -1,17 +1,27 @@
 {
   "latest": "0.1.46",
-  "publishedAt": "2026-11-19T15:51:11+08:00",
+  "publishedAt": "2026-11-19T16:58:42+08:00",
   "displayVersion": "公测V3.0",
   "deliveryVersion": "V3",
   "force": false,
-  "notes": "公测V3.0（0.1.46）Windows 版已发布，macOS 双架构随后补齐。\n\n【工作台：一条时间线干完】\n- 首页影片背景统一，深浅色层次不再脏\n- 画布布局更稳，成果审阅、全局字号入口收到一处\n- 分集入口补齐，一集一个工作区，导进来自动分好\n\n【共享画布：多人真的能一起改】\n- 共享画布改成实时同步，对方改完这边几秒内就能看到\n- 访客用浏览器就能进来改，不用装客户端\n- 断开设备前会把画布先存一遍，不再丢节点\n\n【剪辑：多轨与媒体池】\n- 多轨剪辑落地，媒体池缩略图补齐\n- 导入媒体时校验路径，缺文件会明确报出来，不再静默吞掉\n\n【已知问题（下一轮修）】\n- DaVinci Resolve 导入时间线后只有画面没有声音\n- 访客进入对方画布时可能自动弹出网页，关掉还会再弹\n- 生图节点生成后直接关窗，节点偶尔不保存\n\n以上三条已在修，下一版处理。其余功能正常使用。\n\n覆盖安装即可，项目、素材、账号全部保留，不需要卸载。",
-  "manualDownloadUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.46",
+  "notes": "公测V3.0（0.1.46）Windows / macOS 三端同步发布。\n\n【工作台：一条时间线干完】\n- 首页影片背景统一，深浅色层次不再脏\n- 画布布局更稳，成果审阅、全局字号入口收到一处\n- 分集入口补齐，一集一个工作区，导进来自动分好\n\n【共享画布：多人真的能一起改】\n- 共享画布改成实时同步，对方改完这边几秒内就能看到\n- 访客用浏览器就能进来改，不用装客户端\n- 断开设备前会把画布先存一遍，不再丢节点\n\n【剪辑：多轨与媒体池】\n- 多轨剪辑落地，媒体池缩略图补齐\n- 导入媒体时校验路径，缺文件会明确报出来，不再静默吞掉\n\n【已知问题（下一轮修）】\n- DaVinci Resolve 导入时间线后只有画面没有声音\n- 访客进入对方画布时可能自动弹出网页，关掉还会再弹\n- 生图节点生成后直接关窗，节点偶尔不保存\n\n以上三条已排进下一版，其余功能正常使用。\n\n【安装】\nWindows：覆盖安装即可，项目、素材、账号全部保留，不需要卸载。\nmacOS：按芯片选包（M 系列选 arm64，Intel 选 x64）。首次打开若提示「无法验证开发者」，在图标上右键选「打开」，或到 系统设置 - 隐私与安全性 里点「仍要打开」，只需一次。",
+  "manualDownloadUrl": "https://pan.quark.cn/s/f60666574bf1",
   "archiveUrl": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/tag/v0.1.46",
   "platforms": {
     "windows": {
       "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.46/YangZi-Studio-PublicBeta-V3.0-Windows-Setup.exe",
       "size": 639141865,
       "sha256": "8bf6285fabd067c780808072980ccd28f0efbe735884491f2a76d3bff7301542"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.46/YangZi-Studio-PublicBeta-V3.0-macOS-arm64.dmg",
+      "size": 442374225,
+      "sha256": "94ebabb690b7cbf351e4d1134dba4386caa6a63cacd2f50c9c22ddd29defee74"
+    },
+    "macos-x64": {
+      "url": "https://github.com/zyadyiiii-coder/yoko-studio-releases/releases/download/v0.1.46/YangZi-Studio-PublicBeta-V3.0-macOS-x64.dmg",
+      "size": 472296020,
+      "sha256": "840713f511b5507087cb4b3753e84241dd6f3749126cde293c9c32cc418fee82"
     }
   }
 }
